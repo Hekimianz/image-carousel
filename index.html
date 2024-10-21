@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>carousel</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="app.js"></script>
+  </head>
+  <body>
+    <section class="carousel">
+      <div class="carousel--img">
+        <div class="arrow--cont arrow-left">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="#fff"
+          >
+            <path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z" />
+          </svg>
+        </div>
+        <div class="arrow--cont arrow-right">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="#fff"
+          >
+            <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" />
+          </svg>
+        </div>
+        <div class="dots--cont">
+          <span class="dot active" data-img="pic1.jpg"></span>
+          <span class="dot" data-img="pic2.jpg"></span>
+          <span class="dot" data-img="pic3.jpg"></span>
+          <span class="dot" data-img="pic4.jpg"></span>
+          <span class="dot" data-img="pic5.jpg"></span>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
